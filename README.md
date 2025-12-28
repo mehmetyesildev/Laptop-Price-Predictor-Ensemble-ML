@@ -1,4 +1,5 @@
 # 💻 Laptop Price Predictor (Hybrid Ensemble Architecture)
+![License](https://img.shields.io/badge/License-Non%20Commercial-red)
 
 This project is a professional **Machine Learning-based Backend** solution capable of predicting prices with high consistency even on noisy real-world datasets. The core focus is not just training a model, but overcoming data constraints and variance through advanced engineering approaches.
 
