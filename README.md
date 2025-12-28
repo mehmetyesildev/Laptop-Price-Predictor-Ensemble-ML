@@ -13,7 +13,7 @@ This project is a professional **Machine Learning-based Backend** solution capab
 
 ## 🚀 Key Engineering Solutions
 
-* **Hybrid Ensemble Learning**: To minimize variance and error rates of a single algorithm, **LightGBM**, **XGBoost**, and **CatBoost** models are combined using a `StackingRegressor` architecture.
+* **Advanced Segmentation Model:**: Instead of a generic regressor, specialized LightGBM models are trained for each price segment (Low, Mid, High) to maximize accuracy and minimize variance.
 * **Price Segmentation**: The dataset is divided into 5 distinct price segments (Low, Mid-Low, Mid-High, High, Ultra-High) based on hardware power, and specialized sub-models are trained for each.
 * **Dynamic Metadata Strategy**: A dynamic inference structure was established that references real brand-based price weights (`segment_metadata.pkl`) extracted during training.
 * **Anomaly Detection & Cleaning**: Irrational price deviations (e.g., entry-level processors with exorbitant prices) are automatically cleaned to improve model learning quality.
